@@ -14,13 +14,23 @@
     "code-search",
     "outline"
   ],
-  "author": "DeepSeek Harness Community",
+  "author": "Jaylor-Wang",
   "license": "MIT",
+  "homepage": "https://github.com/Jaylor-Wang/dsh-tool-ast-grep#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaylor-Wang/dsh-tool-ast-grep.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jaylor-Wang/dsh-tool-ast-grep/issues"
+  },
   "engines": {
     "node": ">=18.0.0"
   },
   "dsh": {
-    "bundle": true
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
   },
   "peerDependencies": {
     "@deepseek-ai/dsh-tools": "*",

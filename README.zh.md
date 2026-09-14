@@ -111,4 +111,4 @@ TypeScript (`ts`, `tsx`), JavaScript (`js`, `jsx`), Python (`py`), Rust (`rs`), 
 
 ## 许可证
 
-MIT © DeepSeek Harness Community
+MIT © Jaylor Wang (Jaylor-Wang)
