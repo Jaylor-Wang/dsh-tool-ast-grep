@@ -1,0 +1,8 @@
+# dsh-tool-ast-grep bundle patch: inserts AST tools into profile layer stack
+- insert:
+    - id: tool-ast-grep
+      name: dsh-tool-ast-grep
+      inject: [tools]
+      config:
+        maxResults: 50
+        timeoutMs: 60000
