@@ -1,3 +1,6 @@
 node_modules/
 .DS_Store
 *.log
+
+# local-only working notes, never committed
+Development Plan.md
