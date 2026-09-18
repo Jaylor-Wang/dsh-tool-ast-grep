@@ -1,6 +1,6 @@
 {
   "name": "dsh-tool-ast-grep",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "AST-based structural code search and syntax outline tool for DeepSeek Harness powered by ast-grep",
   "type": "module",
   "main": "index.js",

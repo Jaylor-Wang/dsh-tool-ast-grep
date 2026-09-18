@@ -1,8 +1,10 @@
-# dsh-tool-ast-grep bundle patch: inserts AST tools into profile layer stack
+# dsh-tool-ast-grep bundle patch: inserts AST tools into the profile layer stack.
+# Plain `id`/`name` insert rows only, on purpose: `inject` is declared by
+# index.js (`export const inject = ["tools"]`) and every config key has a schema
+# default (maxResults 50, timeoutMs 60000). dshmarket hot-mounts a plugin by
+# re-reading this file and parsing it as `insert` + `id` + `name` rows, so a
+# `config:`/`inject:` block here would make the plugin impossible to switch on or
+# off from the market without a harness restart.
 - insert:
     - id: tool-ast-grep
       name: dsh-tool-ast-grep
-      inject: [tools]
-      config:
-        maxResults: 50
-        timeoutMs: 60000

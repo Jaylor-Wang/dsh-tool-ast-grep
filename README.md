@@ -1,6 +1,10 @@
 # dsh-tool-ast-grep
 
-[English](README.md) | [中文](README.zh.md)
+English | [中文](README.zh.md)
+
+[![npm version](https://img.shields.io/npm/v/dsh-tool-ast-grep.svg)](https://www.npmjs.com/package/dsh-tool-ast-grep)
+[![license](https://img.shields.io/github/license/Jaylor-Wang/dsh-tool-ast-grep.svg)](LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/Jaylor-Wang/dsh-tool-ast-grep.svg)](https://github.com/Jaylor-Wang/dsh-tool-ast-grep/releases)
 
 **AST-based structural code search and outline plugin for DeepSeek Harness (DSH)**, powered by [ast-grep](https://ast-grep.github.io/).
 

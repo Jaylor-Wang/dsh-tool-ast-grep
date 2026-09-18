@@ -2,6 +2,10 @@
 
 [English](README.md) | 中文
 
+[![npm version](https://img.shields.io/npm/v/dsh-tool-ast-grep.svg)](https://www.npmjs.com/package/dsh-tool-ast-grep)
+[![license](https://img.shields.io/github/license/Jaylor-Wang/dsh-tool-ast-grep.svg)](LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/Jaylor-Wang/dsh-tool-ast-grep.svg)](https://github.com/Jaylor-Wang/dsh-tool-ast-grep/releases)
+
 **专为 DeepSeek Harness (DSH) 打造的语法级 AST 代码检索与大纲提取插件**，基于 Rust 高性能语法解析工具 [ast-grep](https://ast-grep.github.io/) 驱动。
 
 为 Coding Agent 提供精准的代码语法树（AST）检索能力与文件架构提取能力，在语义精度和 Token 消耗控制上彻底超越传统的纯文本正则搜索（`grep`）。
