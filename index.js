@@ -37,9 +37,12 @@ const OUTLINE_KINDS = {
     nested: "method_definition",
   },
   python: {
-    topLevel:
-      "function_definition, async_function_definition, class_definition, decorated_definition",
-    nested: "function_definition, async_function_definition",
+    // NOTE: ast-grep has no `async_function_definition` kind for Python and
+    // rejects the whole invocation with "Cannot parse kind as a valid selector"
+    // when one is requested, which made every depth >= 2 outline of a Python
+    // file fail. Python's `function_definition` already matches `async def`.
+    topLevel: "function_definition, class_definition, decorated_definition",
+    nested: "function_definition",
   },
   rust: {
     topLevel:
