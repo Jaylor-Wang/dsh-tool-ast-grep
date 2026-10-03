@@ -54,6 +54,8 @@
 ast-grep --version
 ```
 
+> **自定义路径提示**：若二进制安装在非标准路径或自定义 npm prefix，插件会自动探测系统 `PATH` 目录。你也可以直接设置环境变量 `AST_GREP_PATH`（指向 `ast-grep` 或 `ast-grep.exe` 的完整路径）。
+
 ---
 
 ## 在 DeepSeek Harness 中安装

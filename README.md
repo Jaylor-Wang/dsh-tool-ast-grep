@@ -52,6 +52,8 @@ Verify with:
 ast-grep --version
 ```
 
+> **Tip for custom installations**: If `ast-grep` is installed in a non-standard location or custom npm prefix, the plugin will automatically probe directories in your `PATH`. You can also set the `AST_GREP_PATH` environment variable to its full path directly.
+
 ---
 
 ## Installation in DSH
